@@ -1,7 +1,31 @@
 {
   "compilerOptions": {
-    "paths": {
-      "@/*": ["./*"]
+    "baseUrl": "src",
+    "paths": {//Permite la creacion de alias para acceder a un recurso de una manera rapida
+    "@pages/*": [
+      "pages/*"
+    ],
+    "@components/*": [
+      "components/*"
+    ],
+    "@containers/*": [
+      "containers/*"
+    ],
+    "@icons/*": [
+      "assets/icons/*"
+    ],
+    "@logos/*": [
+      "assets/logos/*"
+    ],
+    "@context/*": [
+      "context/*"
+    ],
+    "@styles/*": [
+      "styles/*"
+    ],
+    "@hooks/*": [
+      "hooks/*"
+    ],
     }
   }
 }
